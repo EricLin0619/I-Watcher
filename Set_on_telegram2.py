@@ -8,12 +8,20 @@ import random
 import telepot
 from PIL import Image
 from telepot.loop import MessageLoop
+import RPi.GPIO as GPIO
 #import face_dataset_fun
 #import face_training_fun
+
+GPIO.cleanup()
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(18,GPIO.OUT)
+#initialize GPIO
 
 pygame.mixer.init()
 pygame.mixer.music.load("/home/pi/Music/magic_gun (online-audio-converter.com).wav")
 #initialize speaker
+
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read('trainer/trainer.yml')
 cascadePath = "haarcascade_frontalface_default.xml"
@@ -37,23 +45,47 @@ def action(msg):
     
     print('Received: %s' % command)
 
+#check if bot is wakeup
     if 'Start' in command:
         message="Ok,sir!"
         telegram_bot.sendMessage(chat_id,message)
-        
+#open the door
+    if 'Open the door' in command:
+        message="Door's been opened."
+        GPIO.output(18,0)
+        time.sleep(1)
+        telegram_bot.sendMessage(chat_id,message)
+#close the door
+    if 'Close the door' in command:
+        message="Door's been closed."
+        GPIO.output(18,1)
+        time.sleep(1)
+        telegram_bot.sendMessage(chat_id,message)
+#add new face to bot
     if 'Add new face' in command:
         message="Please face the camera with your front face."
         telegram_bot.sendMessage(chat_id,message)
+        cam = cv2.VideoCapture(0)
+        cam.set(3, 640) # set video widht
+        cam.set(4, 480) # set video height
+        # Define min window size to be recognized as a face
+        minW = 0.1*cam.get(3)
+        minH = 0.1*cam.get(4)
         data_set()
-    
+#train the dataset
     if 'Train' in command:
         message="Ok, I'm training now."
         telegram_bot.sendMessage(chat_id,message)
         train()
 
-    
-    #ask bot to open camera
+#ask bot to open camera
     if 'Open camera' in command:
+        cam = cv2.VideoCapture(0)
+        cam.set(3, 640) # set video widht
+        cam.set(4, 480) # set video height
+        # Define min window size to be recognized as a face
+        minW = 0.1*cam.get(3)
+        minH = 0.1*cam.get(4)
         while True:
             ret, img =cam.read()
             img = cv2.flip(img, -1) # Flip vertically
@@ -101,6 +133,7 @@ def action(msg):
         cv2.destroyAllWindows()
 #getFace function        
 def data_set():
+    #cam.isOpened()
     a=str(random.randrange(1,1000))
     print("\n [INFO] Initializing face capture. Look the camera and wait ...")
     # Initialize individual sampling face count
@@ -128,6 +161,7 @@ def data_set():
 
 #train function
 def train():
+    #cam.isOpened()
     path = 'dataset'
     recognizer = cv2.face.LBPHFaceRecognizer_create()
     aceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml");
