@@ -103,11 +103,8 @@ sudo apt-get install python3-pygame
 
 # Start
 
----
-
 ## Facial recognition
 
----
 
 ### Test your camera
 
