@@ -7,7 +7,7 @@ It is quite troublesome to take out the key from the bag to open the door every 
 
 On the other hand, if relatives and friends visit my home, the host can also control the door lock directly through Telegram bot without opening the door personally.
 
-## How to use this machine ?
+### How to use this machine ?
 1. First of all, you have to download telegram, a communication APP. Then establish a connection with I-Watcher , the bot on telegram.
 2. Second, type in “Add new face” in the chat box,  and the camera will turn on to try to capture your face. Please use it in a place with sufficient light sources, otherwise the machine can’t find the face. After capturing the face, I-Watcher will tell you that your face has been stored.
 3. Third, type in "Train" in the chat box to train a new face recognition model. After training, I-Watcher will tell you that your face has been trained.
@@ -15,7 +15,7 @@ On the other hand, if relatives and friends visit my home, the host can also con
     1. If I-Watcher recognizes your face, I-Watcher will unlock the door for five seconds and play a welcome home sound effect. Simultaneously，send a welcome home message in telegram. 
     2. If it cannot recognize your face, It will play a sound effect to warn the stranger. And take a photo of stranger and send it to the owner's mobile phone. Finally, the camera will be turned off automatically.
 
-## Commands you can use in I-Watcher
+### Commands you can use in I-Watcher
 
 - Start : to check if your bot wakeup
     - Reply : “Ok,sir!”
@@ -36,7 +36,7 @@ On the other hand, if relatives and friends visit my home, the host can also con
 
 ⚠️All the commands can only be used when camera is off.
 
-## Feature list
+### Feature list
 
 1. Open the solenoid lock.
 2. Close the solenoid lock.
@@ -48,7 +48,7 @@ On the other hand, if relatives and friends visit my home, the host can also con
 8. Do all the features above in telegram.
 
 # Preparation
-## Hardware
+### Hardware
 
 - Raspberry Pi 4 Model B
 - Jumper Wire
@@ -58,7 +58,7 @@ On the other hand, if relatives and friends visit my home, the host can also con
 - Power supply (input 100~240V , output 12V )
 - Pi camera
 
-## Software
+### Software
 
 - Python 3.9.2
 - Opencv 4.5.1
