@@ -2,7 +2,7 @@
 Made by 資管3A林冠廷
 
 # Overview
-###Why I want to do this project ?
+### Why I want to do this project ?
 It is quite troublesome to take out the key from the bag to open the door every time I go home. Especially when I just came home from shopping. My hands were full but I still need to find out the key from my bag.  I wish the door could open by itself every time. So i want to make a machine that can open the door just by my face. Then I’ll never have to find the key to open the door anymore.
 
 On the other hand, if relatives and friends visit my home, the host can also control the door lock directly through Telegram bot without opening the door personally.
