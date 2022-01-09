@@ -66,6 +66,7 @@ On the other hand, if relatives and friends visit my home, the host can also con
 - Python Telegram Bot 12.7
 - Pygame
 - Telegram App
+
 ## Install opencv on your raspberrypi
 
 There are several ways can install opencv on your raspberrypi. After my several attempts, this is the best way to install opencv.
