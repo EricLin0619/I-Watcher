@@ -173,7 +173,7 @@ faceCascade = cv2.CascadeClassifier('Cascades/haarcascade_frontalface_default.xm
 
 Remember the path is the absolute path of “haarcascade_frontalface_default.xml”.
 
-![螢幕擷取畫面 2022-01-09 192523.png](%E9%81%8E%E5%BA%A6%202eddbd8153bf4086b840399467403d4f/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_2022-01-09_192523.png)
+![螢幕擷取畫面 2022-01-09 192523.png](https://github.com/EricLin0619/I-Watcher/blob/main/image/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-01-09%20192523.png)
 
 ### Step 1 : Get data
 
@@ -213,9 +213,9 @@ cv2.destroyAllWindows()
 
 Use this code you can get 30 photos in 10 seconds
 
-![螢幕擷取畫面 2022-01-09 193515.png](%E9%81%8E%E5%BA%A6%202eddbd8153bf4086b840399467403d4f/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_2022-01-09_193515.png)
+![螢幕擷取畫面 2022-01-09 193515.png](https://github.com/EricLin0619/I-Watcher/blob/main/image/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-01-09%20193515.png)
 
-![螢幕擷取畫面 2022-01-09 193541.png](%E9%81%8E%E5%BA%A6%202eddbd8153bf4086b840399467403d4f/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_2022-01-09_193541.png)
+![螢幕擷取畫面 2022-01-09 193541.png](https://github.com/EricLin0619/I-Watcher/blob/main/image/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-01-09%20193541.png)
 ### Step 2 : Train face model
 
 ```python
@@ -313,11 +313,11 @@ cv2.destroyAllWindows()
 
 Use this to recognize your face.
 
-![螢幕擷取畫面 2022-01-09 194537.png](hi%2007ad304f89d54ca588394707bd6a6ad0/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_2022-01-09_194537.png)
+![螢幕擷取畫面 2022-01-09 194537.png](https://github.com/EricLin0619/I-Watcher/blob/main/image/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-01-09%20194537.png)
 
 ## Solenoid
 
-![螢幕擷取畫面 2022-01-09 194818.png](hi%2007ad304f89d54ca588394707bd6a6ad0/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_2022-01-09_194818.png)
+![螢幕擷取畫面 2022-01-09 194818.png](https://github.com/EricLin0619/I-Watcher/blob/main/image/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-01-09%20194818.png)
 
 The circuit diagram for Raspberry Pi Solenoid Door Lock is very simple as you only need to connect the solenoid door lock to Raspberry Pi. Solenoid Lock needs 9V-12V to operate and Raspberry Pi GPIO pins can supply only 3.3V, so a 12V external power source is used to trigger the lock with the help of a relay.
 
@@ -346,7 +346,7 @@ finally:
 
 This few lines code can cycle between locking and unlocking. And you can press “ctrl+c” to stop it.
 
-![0c5de62e-62ef-4022-9680-cbe17642a7df_AdobeCreativeCloudExpress.gif](hi%2007ad304f89d54ca588394707bd6a6ad0/0c5de62e-62ef-4022-9680-cbe17642a7df_AdobeCreativeCloudExpress.gif)
+![0c5de62e-62ef-4022-9680-cbe17642a7df_AdobeCreativeCloudExpress.gif](https://github.com/EricLin0619/I-Watcher/blob/main/image/0c5de62e-62ef-4022-9680-cbe17642a7df_AdobeCreativeCloudExpress.gif)
 
 # Reference
 
