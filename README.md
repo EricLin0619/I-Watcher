@@ -65,8 +65,8 @@ On the other hand, if relatives and friends visit my home, the host can also con
 - Python Telegram Bot 12.7
 - Pygame
 - Telegram App
-
-## Install opencv on your raspberrypi
+#Installation
+### Install opencv on your raspberrypi
 
 There are several ways can install opencv on your raspberrypi. After my several attempts, this is the best way to install opencv.
 
@@ -78,13 +78,13 @@ sudo apt-get install -y libopencv-dev python3-opencv
 
 ⚠️If you want to download all packages and libraries, and compile them by yourself, it will take a lot of time and you are likely to get fail, please think twice.
 
-## Install Python telegram Bot
+### Install Python telegram Bot
 
 ```python
 sudo pip install telepot
 ```
 
-## Install pygame
+### Install pygame
 
 To make your speaker can work. Type in this command on your terminal then you’ll hear the speaker’s sound.
 
@@ -98,7 +98,7 @@ Install command
 sudo apt-get install python3-pygame
 ```
 
-## Circuit diagram
+### Circuit diagram
 
 # Start
 
