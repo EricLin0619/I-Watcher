@@ -9,7 +9,6 @@ It is quite troublesome to take out the key from the bag to open the door every 
 On the other hand, if relatives and friends visit my home, the host can also control the door lock directly through Telegram bot without opening the door personally.
 
 ## How to use this machine ?
-
 1. First of all, you have to download telegram, a communication APP. Then establish a connection with I-Watcher , the bot on telegram.
 2. Second, type in “Add new face” in the chat box,  and the camera will turn on to try to capture your face. Please use it in a place with sufficient light sources, otherwise the machine can’t find the face. After capturing the face, I-Watcher will tell you that your face has been stored.
 3. Third, type in "Train" in the chat box to train a new face recognition model. After training, I-Watcher will tell you that your face has been trained.
