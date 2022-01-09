@@ -1,4 +1,4 @@
-# **I-watcher — I’m watching you**
+# **I-Watcher — I’m watching you**
 ![image](https://github.com/EricLin0619/I-Watcher/blob/main/image/15391447786702.jpg)
 Made by 資管3A林冠廷
 
