@@ -317,8 +317,6 @@ Use this to recognize your face.
 
 ## Solenoid
 
----
-
 ![螢幕擷取畫面 2022-01-09 194818.png](hi%2007ad304f89d54ca588394707bd6a6ad0/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2_2022-01-09_194818.png)
 
 The circuit diagram for Raspberry Pi Solenoid Door Lock is very simple as you only need to connect the solenoid door lock to Raspberry Pi. Solenoid Lock needs 9V-12V to operate and Raspberry Pi GPIO pins can supply only 3.3V, so a 12V external power source is used to trigger the lock with the help of a relay.
@@ -351,8 +349,6 @@ This few lines code can cycle between locking and unlocking. And you can press �
 ![0c5de62e-62ef-4022-9680-cbe17642a7df_AdobeCreativeCloudExpress.gif](hi%2007ad304f89d54ca588394707bd6a6ad0/0c5de62e-62ef-4022-9680-cbe17642a7df_AdobeCreativeCloudExpress.gif)
 
 # Reference
-
----
 
 - [Real-Time Face Recognition: An End-to-End Project - Hackster.io](https://www.hackster.io/mjrobot/real-time-face-recognition-an-end-to-end-project-a10826?fbclid=IwAR26TFQwNHnk91X4uxgUNaJWY299Sygu-l5GjkkfYkbAj8jVK3oH_sjPLlY)
 - [IoT Based Solenoid Door Lock using Raspberry Pi 4 (iotdesignpro.com)](https://iotdesignpro.com/projects/iot-based-solenoid-door-lock-using-raspberry-pi-4)
