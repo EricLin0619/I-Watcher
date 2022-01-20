@@ -377,7 +377,28 @@ while 1:
     time.sleep(10)
 ```
 You can use above code to test your bot but don't forget to change the token number to yours.
+## Play sound effect
+We use "pygame" to play the music on python.
+```python
+speaker-test -c2 -twav -17
+```
+Enter this command to your terminal to test if the speaker is ok.
+```python
+import pygame
+import pygame.mixer
 
+#path='/home/pi/Music/obake (online-audio-converter.com).wav'
+
+pygame.mixer.init()
+speaker_volume=0.5
+pygame.mixer.music.set_volume(speaker_volume)
+
+#while True:
+pygame.mixer.music.load("/home/pi/Music/obake (online-audio-converter.com).wav")
+pygame.mixer.music.play()
+time.sleep(5)
+```
+You can use this code to play the music but don't forget to change the path of music file.
 # Reference
 
 - [Real-Time Face Recognition: An End-to-End Project - Hackster.io](https://www.hackster.io/mjrobot/real-time-face-recognition-an-end-to-end-project-a10826?fbclid=IwAR26TFQwNHnk91X4uxgUNaJWY299Sygu-l5GjkkfYkbAj8jVK3oH_sjPLlY)
