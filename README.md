@@ -352,7 +352,7 @@ This few lines code can cycle between locking and unlocking. And you can press â
 
 ![0c5de62e-62ef-4022-9680-cbe17642a7df_AdobeCreativeCloudExpress.gif](https://github.com/EricLin0619/I-Watcher/blob/main/image/0c5de62e-62ef-4022-9680-cbe17642a7df_AdobeCreativeCloudExpress.gif)
 ## Telegram bot
-You have to install telegram in your phone or mobile device first. Then search the "BotFather" and click on start. Creat new robot using the command, /newbot and follow the step it tell you. After finishing all steps BotFather will give you a tolen for access.
+You have to install telegram in your phone or mobile device first. Then search the "BotFather" and click on start. Creat new robot using the command, /newbot and follow the step it tell you. After finishing all steps BotFather will give you a token number for access.
 ![botfather](https://i.imgur.com/74KDaoN.jpeg)
 ```python
 import time, datetime
