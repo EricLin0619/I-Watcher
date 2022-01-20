@@ -102,8 +102,6 @@ Install command
 sudo apt-get install python3-pygame
 ```
 
-### Circuit diagram
-
 # Start
 
 ## Facial recognition
