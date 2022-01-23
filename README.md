@@ -80,7 +80,7 @@ Other ways : [樹莓派4b安裝OpenCV 新手推薦 | IT人 (iter01.com)](https:/
 sudo apt-get install -y libopencv-dev python3-opencv
 ```
 
-⚠️If you want to download all packages and libraries, and compile them by yourself, it will take a lot of time and you are likely to get fail, please think twice.
+⚠️If you want to download all packages and libraries, compiling them by yourself. It will take a lot of time and you are likely to get fail, please think twice.
 
 ### Install Python telegram Bot
 
