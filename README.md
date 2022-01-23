@@ -90,13 +90,6 @@ sudo pip install telepot
 
 ### Install pygame
 
-To make your speaker can work. Type in this command on your terminal then you’ll hear the speaker’s sound.
-
-```python
-speaker-test -c2 -twav -17
-```
-
-Install command
 
 ```python
 sudo apt-get install python3-pygame
